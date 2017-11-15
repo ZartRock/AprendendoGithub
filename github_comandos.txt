@@ -13,3 +13,10 @@ git clone <CaminhoRepositorio> #Faz a cópia do repositorio para a pasta atual
 git add <arquivos>/<*> # Add mudanças no Index
 git commit -m "comentarios"  #Adiciona mudanças para Head
 git push origin master #Enviar alterações para rep. principal
+
+
+Outros:
+git checkout -b <nome_branch> #Faz uma nova branch
+git checkout <branch> #Muda para a branch indicada, inclusive o main.
+git merge <branch>
+git branch -d <nome_branch> # Exclui a branch em questao
