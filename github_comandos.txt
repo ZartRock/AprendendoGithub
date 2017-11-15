@@ -1,0 +1,15 @@
+# Comandos:
+
+Ciclo básico de trabalho do github:
+	Wordking Dir; Index(Stage); Head
+
+
+
+
+
+
+git init  # Faz uma novo projeto com a pasta atual
+git clone <CaminhoRepositorio> #Faz a cópia do repositorio para a pasta atual
+git add <arquivos>/<*> # Add mudanças no Index
+git commit -m "comentarios"  #Adiciona mudanças para Head
+git push origin master #Enviar alterações para rep. principal
